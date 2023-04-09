@@ -1,0 +1,66 @@
+<html>
+
+<head>
+      <title>Our Bread</title>
+
+      <link rel="stylesheet" href="theme.css" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+      <h1>IST Coding Challenges</h1>
+
+
+      <section>
+            <label>Dark mode <input type="radio" name="mode" value="dark" id="dark" /></label><br>
+            <label>Light mode <input type="radio" name="mode" value="light" id="light" checked /></label><br>
+            <button id="saveButton">Save</button>
+      </section>
+
+      <section>
+            <h2>Colour Changer </h2>
+            <input type ="text" id="colourInputText">
+
+            <input type="button" id="colourButton" value="Click to change colour" 
+            onclick="changeColour()">
+      
+      </section>
+
+      <h2>Roman Numeral Converter</h2>
+      <form id="converter">
+            <label for="numberInput">Enter a number:</label>
+            <input type="number" id="numberInput" name="numberInput">
+            <button type="submit">Convert to Roman Numeral</button>
+            <p class="result"></p>
+      </form>
+
+      <h2>Palindrome Checker</h2>
+      <form id="pallindrome">
+            <input type="text" id="enterword" placeholder="Enter a word">
+            <button type="submit">Check</button>
+            <p class="result"></p>
+      </form>
+
+      <h2>Morse Code Converter</h2>
+      <form id="converter2">
+            <label for="textInput">Text to Convert:</label>
+            <input type="text" id="textInput" name="textInput">
+            <button type="submit">Convert</button>
+            <p class="result"></p>
+            <p id="morseCodeOutput"></p>
+      </form>
+
+      <h2>Pangram Checker</h2>
+      <form id="pangram">
+            <input type="text" id="inputString" placeholder="Enter a sentence">
+            <button type="submit">Check Pangram</button>
+            <p class="result"></p>
+      </form>
+
+
+      <footer> &#169; 2023 IST </footer>
+      <script src="script.js"></script>
+</body>
+
+</html>
